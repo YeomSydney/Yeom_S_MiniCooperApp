@@ -52,3 +52,17 @@ nav {
     cursor: pointer;
     transition: all .1s ease-in;
 }
+
+.announcment {
+    height: 2.5rem;
+    background-color: #000000;
+    margin-top: -.5rem;
+    color: white;
+}
+
+.announcment h2 {
+    font-size: 14px;
+    font-weight: 600;
+    align-items: center;
+    padding-top: .75rem;
+}
