@@ -5,7 +5,7 @@
 
     creatApp({
         created() {
-            fetch('./includes/index.php')
+            fetch('./data.json')
                 .then(res => res.json())
                 .then(data => this.miniAppData = data)
             .catch(error => console.error(error));
