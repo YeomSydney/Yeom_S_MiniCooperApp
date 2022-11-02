@@ -1,4 +1,5 @@
 # Mini Cooper Makes and Models
+<img src="./images/logo.png" width="300px" height="auto">
 
 ## Author
 Seunghyeon Yeom (0975764)
