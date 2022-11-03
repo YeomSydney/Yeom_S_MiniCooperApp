@@ -1,9 +1,17 @@
 // components get imported here first
-(() => {
-    const { creatApp } = Vue
+import WhiteMini from './components/TheMiniWhite.js';
+import RedMini from './components/TheMiniRed.js';
+import BlueMini from './components/TheMiniBlue.js';
+import GreenMini from './components/TheMiniGreen.js';
+import BlackMini from './components/TheMiniBlack.js';
 
-    creatApp({
+(() => {
+    const { createApp } = Vue
+
+    createApp({
         created() {
+            console.log('vue instance is created');
+
             fetch('./data.json')
                 .then(res => res.json())
                 .then(data => this.miniAppData = data)
@@ -12,7 +20,7 @@
 
         data() {
             return {
-                miniAppData: {}
+                miniAppData: {},
             }
         },
 
@@ -21,7 +29,11 @@
         },
 
         components: {
-
+            whitemini: WhiteMini,
+            redmini: RedMini,
+            bluemini: BlueMini,
+            greenmini: GreenMini,
+            blackmini: BlackMini
         }
     }).mount('#app')
 })()

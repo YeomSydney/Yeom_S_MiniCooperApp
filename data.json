@@ -1,0 +1,85 @@
+{
+    "White Mini": {
+        "name": "2023 MINI COOPER 5 DOOR",
+        "date": "2023 Jan",
+        "colour": "White",
+        "fuelType": "Gasolin",
+        "price": "All-Inclusive Price: $35,156",
+        "monthly": "$544",
+        "seatCount": "5",
+        "seatColour": "Amarone Brown/Black w/Full Merino Leather Upholstery, Black w/Full Merino Leather Upholstery, Black w/Perforated Nappa Leather Upholstery, Cognac w/Nappa Leather w/Quilting Upholstery, Cognac w/Perforated Nappa Leather Upholstery",
+        "thumbnail": "miniWhite.png"
+    },
+
+    "Red Mini": {
+        "name": "2023 MINI COOPER S 5 DOOR",
+        "date": "2023 Jan",
+        "colour": "Red",
+        "fuelType": "Gasolin",
+        "price": "All-Inclusive Price: $40,756",
+        "monthly": "$644",
+        "seatCount": "5",
+        "seatColour": "Amarone Brown/Black w/Full Merino Leather Upholstery, Black w/Full Merino Leather Upholstery, Black w/Perforated Nappa Leather Upholstery, Cognac w/Nappa Leather w/Quilting Upholstery, Cognac w/Perforated Nappa Leather Upholstery",
+        "thumbnail": "miniRed.png"
+    },
+
+    "Blue Mini": {
+        "name": "2023 MINI SPECIAL COOPER 5 DOOR",
+        "date": "2023 Jan",
+        "colour": "Blue",
+        "fuelType": "Gasolin",
+        "price": "All-Inclusive Price: $55,138",
+        "monthly": "$744",
+        "seatCount": "5",
+        "seatColour": "Amarone Brown/Black w/Full Merino Leather Upholstery, Black w/Full Merino Leather Upholstery, Black w/Perforated Nappa Leather Upholstery, Cognac w/Nappa Leather w/Quilting Upholstery, Cognac w/Perforated Nappa Leather Upholstery",
+        "thumbnail": "miniBlue.png"
+    },
+
+    "Green Mini": {
+        "name": "2023 MINI COUNTRYMAN 5 DOOR",
+        "date": "2023 Jan",
+        "colour": "Green",
+        "fuelType": "Gasolin",
+        "price": "All-Inclusive Price: $39,582",
+        "monthly": "$590",
+        "seatCount": "5",
+        "seatColour": "Amarone Brown/Black w/Full Merino Leather Upholstery, Black w/Full Merino Leather Upholstery, Black w/Perforated Nappa Leather Upholstery, Cognac w/Nappa Leather w/Quilting Upholstery, Cognac w/Perforated Nappa Leather Upholstery",
+        "thumbnail": "miniGreen.png"
+    },
+
+    "Black Mini": {
+        "name": "2023 MINI SPECIAL COUNTRYMAN 5 DOOR",
+        "date": "2023 Jan",
+        "colour": "Black",
+        "fuelType": "Gasolin",
+        "price": "All-Inclusive Price: $77,129",
+        "monthly": "$822",
+        "seatCount": "5",
+        "seatColour": "Amarone Brown/Black w/Full Merino Leather Upholstery, Black w/Full Merino Leather Upholstery, Black w/Perforated Nappa Leather Upholstery, Cognac w/Nappa Leather w/Quilting Upholstery, Cognac w/Perforated Nappa Leather Upholstery",
+        "thumbnail": "miniBlack.png"
+    },
+
+    "ECONOMY & EFFICIENCY": {
+        "fname": "ECONOMY & EFFICIENCY",
+        "fdesc": "The best thing about MINI is its superb economy. This is made feasible by its small size and clever engineering. Being able to provide you with a lot of value for your money makes us rather efficient investments.",
+        "thumbnail": "miniWhite.png"
+    },
+
+    "PERFORMANCE & CONTROL": {
+        "fname": "PERFORMANCE & CONTROL",
+        "fdesc": "You will enjoy exceptional speed, handling, and more when you combine a strong engineering approach with a small dimensions and light curb weight. The perfect, go-kart-like steering and quick acceleration of MINIs are well recognised.",
+        "thumbnail": "miniWhite.png"
+    },
+
+    "A PERSONALIZED DRIVE": {
+        "fname": "A PERSONALIZED DRIVE",
+        "fdesc": "It is possible to customise and configure MINI in a wide variety of ways. You will be attracted to this kind of freedom. You can improve and fine-tune your MINI in several ways with the appropriate authorised factory and aftermarket parts.",
+        "thumbnail": "miniWhite.png"
+    },
+
+    "A BOOT AS LARGE AS LIFE": {
+        "fname": "A BOOT AS LARGE AS LIFE",
+        "fdesc": "You can focus on bringing everything you need to make your next adventure. At 4.3M long and with 450L of boots space that expands to 1,390L with the back seats down. There is enough room to pack more into the MINI Countryman Hybrid Electric. ",
+        "thumbnail": "miniWhite.png"
+    }
+}
