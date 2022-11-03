@@ -6,10 +6,12 @@ import GreenMini from './components/TheMiniGreen.js';
 import BlackMini from './components/TheMiniBlack.js';
 
 (() => {
-    const { creatApp } = Vue
+    const { createApp } = Vue
 
-    creatApp({
+    createApp({
         created() {
+            console.log('vue instance is created');
+
             fetch('./data.json')
                 .then(res => res.json())
                 .then(data => this.miniAppData = data)
