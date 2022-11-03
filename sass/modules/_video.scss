@@ -1,0 +1,47 @@
+.commercialVid {
+    width: 100%;
+    filter: brightness(70%);
+    position: relative;
+}
+
+.vidTitle {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: white;
+}
+
+.vidTitle h2, .vidTitle h3 {
+    margin: 1rem auto;
+    font-size: 3rem;
+}
+
+.btn button {
+    border-radius: 2rem;
+    border: 1.5px solid #000000;
+    font-size: .9rem;
+    font-weight: 500;
+    padding: 1rem 1.2rem;
+    transition: all .1s ease-in;
+    cursor: pointer;
+    margin: 0 .3rem;
+}
+
+.btn1 {
+    background-color: white;
+}
+
+.btn1:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn2 {
+    background-color: black;
+    color: white;
+}
+
+.btn2:hover {
+    background-color: white;
+    color: black;
+}
