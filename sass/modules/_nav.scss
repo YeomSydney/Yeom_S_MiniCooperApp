@@ -6,17 +6,17 @@ header {
     width: 100%;
     background-color: white;
     color: black;
-    filter: drop-shadow(4px 4px 10px #00000010);
+    filter: drop-shadow(4px 4px 8px #00000020);
     align-items: center;
     text-align: center;
-    height: 100px;
+    height: 80px;
 }
 
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: auto 4rem;
+    margin: auto 7.5rem;
 }
 
 .mainNav {
@@ -28,8 +28,8 @@ nav {
 }
 
 .mainNav ul {
-    padding: .5rem .75rem;
-    margin: 2.1rem auto;
+    padding: 0 .75rem;
+    margin: 2.1rem auto 1.3rem auto;
     transition: all .1s ease-in;
     cursor: pointer;
 }
@@ -39,14 +39,14 @@ nav {
 }
 
 .miniLogo img {
-    width: 130px;
+    width: 110px;
     height: auto;
-    margin: .7rem 0 0 0;
+    margin: .5rem 0 0 0;
 }
 
 .socialMedia {
-    padding: .3rem .1rem;
-    margin: 2.1rem 0;
+    padding: 0 .1rem;
+    margin: 1.7rem 0;
     font-size: 1.7rem;
     align-items: center;
     text-align: center;
@@ -58,9 +58,12 @@ nav {
 }
 
 .announcment {
-    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center!important;
+    height: 3rem;
     background-color: #000000;
-    margin-top: 100px;
+    margin-top: 80px;
     color: white;
 }
 
@@ -68,7 +71,6 @@ nav {
     font-size: 14px;
     font-weight: 600;
     align-items: center;
-    padding-top: .75rem;
-    margin: 0 auto;
+    padding: 1rem 1.5rem 0 1.5rem;
     text-align: center;
 }

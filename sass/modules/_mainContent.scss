@@ -1,3 +1,7 @@
+.section {
+    padding: 4.5rem 0 0 0;
+}
+
 .carIntro {
     margin: 5rem auto 10rem auto;
 }
@@ -75,13 +79,13 @@
 
 .f_cardText p {
     font-size: .9rem;
-    line-height: 1.2rem;
+    line-height: 1.1rem;
 }
 
 .dot {
     border-radius: 10px;
     width: 20px;
-    height: 3px;
+    height: 2px;
     background-color: black;
     margin: .8rem auto .5rem auto;
 }
