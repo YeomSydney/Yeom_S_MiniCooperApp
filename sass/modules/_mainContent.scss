@@ -1,0 +1,87 @@
+.carIntro {
+    margin: 5rem auto 10rem auto;
+}
+
+.carIntro h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.carIntro h3 {
+    font-size: 1.2rem;
+    margin: .9rem auto;
+}
+
+.promoImg img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin: 3rem .4rem;
+}
+
+.heroBanner1 {
+    object-position: 85% 0;
+}
+
+.heroBanner2 {
+    object-position: 40% 0;
+}
+
+.heroBanner3 {
+    object-position: 25% 0;
+}
+
+.discoverDetails {
+    margin: 10rem auto 0 auto;
+}
+
+.discoverDetails h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: .9rem auto;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.featureCard {
+    width: 300px;
+    border-radius: 1rem;
+    margin: 3rem .4rem;
+    background-color: white;
+    filter: drop-shadow(4px 4px 10px #00000008);
+}
+
+.featureCard img {
+    border-radius: 1rem 1rem 0 0;
+}
+
+.f_cardText {
+    margin: 1.8rem auto;
+    width: 250px;
+}
+
+.f_cardText h3 {
+    font-weight: 600;
+    font-size: 1rem;
+    color: black;
+}
+
+.f_cardText p {
+    font-size: .9rem;
+    line-height: 1.2rem;
+}
+
+.dot {
+    border-radius: 10px;
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: .8rem auto .5rem auto;
+}
