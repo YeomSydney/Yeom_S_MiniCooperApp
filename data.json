@@ -57,29 +57,5 @@
         "seatCount": "5",
         "seatColour": "Amarone Brown/Black w/Full Merino Leather Upholstery, Black w/Full Merino Leather Upholstery, Black w/Perforated Nappa Leather Upholstery, Cognac w/Nappa Leather w/Quilting Upholstery, Cognac w/Perforated Nappa Leather Upholstery",
         "thumbnail": "miniBlack.png"
-    },
-
-    "ECONOMY & EFFICIENCY": {
-        "fname": "ECONOMY & EFFICIENCY",
-        "fdesc": "The best thing about MINI is its superb economy. This is made feasible by its small size and clever engineering. Being able to provide you with a lot of value for your money makes us rather efficient investments.",
-        "thumbnail": "miniWhite.png"
-    },
-
-    "PERFORMANCE & CONTROL": {
-        "fname": "PERFORMANCE & CONTROL",
-        "fdesc": "You will enjoy exceptional speed, handling, and more when you combine a strong engineering approach with a small dimensions and light curb weight. The perfect, go-kart-like steering and quick acceleration of MINIs are well recognised.",
-        "thumbnail": "miniWhite.png"
-    },
-
-    "A PERSONALIZED DRIVE": {
-        "fname": "A PERSONALIZED DRIVE",
-        "fdesc": "It is possible to customise and configure MINI in a wide variety of ways. You will be attracted to this kind of freedom. You can improve and fine-tune your MINI in several ways with the appropriate authorised factory and aftermarket parts.",
-        "thumbnail": "miniWhite.png"
-    },
-
-    "A BOOT AS LARGE AS LIFE": {
-        "fname": "A BOOT AS LARGE AS LIFE",
-        "fdesc": "You can focus on bringing everything you need to make your next adventure. At 4.3M long and with 450L of boots space that expands to 1,390L with the back seats down. There is enough room to pack more into the MINI Countryman Hybrid Electric. ",
-        "thumbnail": "miniWhite.png"
     }
 }

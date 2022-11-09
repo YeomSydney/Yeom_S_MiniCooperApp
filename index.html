@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="icon" type="image/x-icon" href="./images/logoFavicon.png">
+    <link rel="icon" type="image/x-icon" href="/images/logoFavicon.png">
 
     <title>Mini Cooper App</title>
 </head>
@@ -59,26 +59,30 @@
             </div>
         </div>
 
-        <section id="carModels" class="section">
-            <div class="carIntro" id="carIntro">
-                <h2>ELECTRIFY YOUR DRIVE</h2>
-                <h3>THE MINI SPECIAL EDITION FROM $45,590</h3>
-
-                <div class="promoImg">
-                    <img class="heroBanner heroBanner1" src="./images/heroBannerImg1.jpg" alt="">
-                    <img class="heroBanner heroBanner2" src="./images/heroBannerImg2.jpg" alt="">
-                    <img class="heroBanner heroBanner3" src="./images/heroBannerImg3.jpg" alt="">
+        <section id="carIntro" class="section">
+            <div id="carModels">
+                <div class="carIntro">
+                    <h2>ELECTRIFY YOUR DRIVE</h2>
+                    <h3>THE MINI SPECIAL EDITION FROM $45,590</h3>
+    
+                    <div class="promoImg">
+                        <img class="heroBanner heroBanner1" src="./images/heroBannerImg1.jpg" alt="">
+                        <img class="heroBanner heroBanner2" src="./images/heroBannerImg2.jpg" alt="">
+                        <img class="heroBanner heroBanner3" src="./images/heroBannerImg3.jpg" alt="">
+                    </div>
+    
+                    <div class="btn">
+                        <button @click="showCars ^= true" class="btn1">BUILD & PRICE</button>
+                        <button class="btn2">MORE EDITIONS</button>
+                    </div>
                 </div>
-
-                <div class="btn">
-                    <button class="btn1">BUILD & PRICE</button>
-                    <button class="btn2">MORE EDITIONS</button>
-                </div>
+    
+                <ul v-show="showCars" class="cars">
+                    <!-- <p>{{ buildNPrice }}</p> -->
+                    <!-- v-if="showCar" -->
+                    <whitemini v-for="mini in miniAppData" :car="mini"></whitemini>
+                </ul>
             </div>
-
-            <ul class="cars">
-                <whitemini v-for="mini in miniAppData" :car="mini"></whitemini>
-            </ul>
         </section>
 
         <div class="discoverDetails">

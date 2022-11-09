@@ -8,6 +8,7 @@ export default {
     template:
     `
         <section>
+            <!-- <img :src='"images/" + car.thumbnail' alt="car image" class="miniCars"> -->
             <img :src='"images/" + car.thumbnail' alt="car image" class="miniCars">
 
             <div class="carInfo">

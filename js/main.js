@@ -21,11 +21,17 @@ import BlackMini from './components/TheMiniBlack.js';
         data() {
             return {
                 miniAppData: {},
+                buildNPrice: {},
+                // showPopup: false,
+                showCars: false
             }
         },
 
         methods: {
-
+            showCars(data) {
+                console.table(date)
+                this.buildNPrice = data;
+            }
         },
 
         components: {
