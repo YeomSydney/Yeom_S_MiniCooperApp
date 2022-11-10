@@ -2,3 +2,110 @@
     width: 300px;
     height: auto;
 }
+
+.cars {
+    // background-image: URL("https://86bd04aee645f41c2005-510904abdc95bfe9a6b152d3edc0036b.ssl.cf5.rackcdn.com/Public/img/2016-739165/content/electric/stay-know-bg.jpg?v=NwY8tz2G0hI8N6iLlo2v8m4NZBYEb6Dj3jJYlFRgPBM1");
+    // background-repeat: no-repeat;
+    background-color: #00000050;
+}
+
+.carSelection {
+    display: inline-block;
+    margin: 3rem 3rem;
+    background-color: #000000;
+    color: white;
+}
+
+.eachCar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.eachCar p {
+    padding: .5rem .8rem;
+    border-style: none;
+    border-radius: 50rem;
+    background-color: #d4ad00;
+    color: white;
+    font-size: .8rem;
+    letter-spacing: .5px;
+    margin-bottom: .5rem;
+}
+
+.eachCar h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-bottom: .5rem;
+}
+
+.eachCar h4 {
+    display: none;
+}
+
+.eachCar h5 {
+    color: #0389dc;
+    font-weight: 600;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    border-radius: 50rem;
+    border: 1.5px solid #0389dc;
+    padding: .7rem 1rem;
+    display: none;
+}
+
+.eachCar h6 {
+    // color: #dcad03;
+    font-size: .9rem;
+    display: none;
+}
+
+.animate {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.showContent {
+    -webkit-animation-delay: .1s;
+    -moz-animation-delay: .1s;
+    animation-delay: .1s;
+    z-index: -100;
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+// @-webkit-keyframes fadeIn {
+//     0% {
+//         opacity: 0;
+//         -webkit-transform: translate3d(0, -10%, 0);
+//         transform: translate3d(0, 10%, 0);
+//     }
+
+//     100% {
+//         opacity: 1;
+//         -webkit-transform: none;
+//         transform: none;
+//     }
+// }
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -5%, 0);
+        transform: translate3d(0, -5%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}

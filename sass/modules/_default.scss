@@ -32,3 +32,35 @@ video {
 img {
     width: 100%;
 }
+
+.vidTitle {
+    animation: slideDown 2s forwards;
+}
+
+// .carIntro h2 {
+//     animation: slideDown 4.4s forwards;
+// }
+
+// .carIntro h3 {
+//     animation: slideDown 4.6s forwards;
+// }
+
+// .promoImg {
+//     animation: slideDown 4.8s forwards;
+// }
+
+// .btn {
+//     animation: slideDown 5s forwards;
+// }
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
