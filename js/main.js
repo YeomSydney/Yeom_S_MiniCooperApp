@@ -1,9 +1,6 @@
 // components get imported here first
-import WhiteMini from './components/TheMiniWhite.js';
-import RedMini from './components/TheMiniRed.js';
-import BlueMini from './components/TheMiniBlue.js';
-import GreenMini from './components/TheMiniGreen.js';
-import BlackMini from './components/TheMiniBlack.js';
+import CarList from './components/CarList.js';
+import eachCarInfo from './components/eachCarInfo.js';
 
 (() => {
     const { createApp } = Vue
@@ -21,25 +18,22 @@ import BlackMini from './components/TheMiniBlack.js';
         data() {
             return {
                 miniAppData: {},
-                buildNPrice: {},
                 // showPopup: false,
-                showCars: false
+                showCars: false,
+                getCarInfo: false
             }
         },
 
         methods: {
-            showCars(data) {
-                console.table(date)
-                this.buildNPrice = data;
-            }
+            // showCars(data) {
+            //     console.table(date)
+            //     this.buildNPrice = data;
+            // }
         },
 
         components: {
-            whitemini: WhiteMini,
-            redmini: RedMini,
-            bluemini: BlueMini,
-            greenmini: GreenMini,
-            blackmini: BlackMini
+            carlist: CarList,
+            eachcarinfo: eachCarInfo
         }
     }).mount('#app')
 })()

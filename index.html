@@ -55,7 +55,7 @@
                 <h3>MINI SPECIAL EDITION</h3>
                 <h4>WE ARE ALREADY READY FOR YOUR NEXT ADVENTURE</h4>
 
-                <a href="#carIntro" id="car_intro"><button class="buildPrice">BUILD & PRICE</button></a>
+                <a href="#carIntro" id="car_intro"><button class="buildPrice">GET READY</button></a>
             </div>
         </div>
 
@@ -63,7 +63,7 @@
             <div id="carModels">
                 <div class="carIntro">
                     <h2>ELECTRIFY YOUR DRIVE</h2>
-                    <h3>THE MINI SPECIAL EDITION FROM $45,590</h3>
+                    <h3>THE MINI SPECIAL EDITION FROM $35,000</h3>
     
                     <div class="promoImg">
                         <img class="heroBanner heroBanner1" src="./images/heroBannerImg1.jpg" alt="">
@@ -72,20 +72,25 @@
                     </div>
     
                     <div class="btn">
-                        <button @click="showCars ^= true" class="btn1">BUILD & PRICE</button>
+                        <a href="#showCar"><button @click="showCars ^= true" class="btn1">BUILD & PRICE</button></a>
                         <button class="btn2">MORE EDITIONS</button>
                     </div>
+
+                    <div id="showCar"></div>
                 </div>
     
-                <ul v-show="showCars" class="cars">
-                    <!-- <p>{{ buildNPrice }}</p> -->
-                    <!-- v-if="showCar" -->
-                    <whitemini v-for="mini in miniAppData" :car="mini"></whitemini>
-                </ul>
+                <div>
+                    <ul v-show="showCars" class="cars animate fadeIn showContent">
+                        <!-- <p>{{ buildNPrice }}</p> -->
+                        <carlist v-for="mini in miniAppData" :car="mini"></carlist>
+                    </ul>
+                </div>
+
+                
             </div>
         </section>
 
-        <div class="discoverDetails">
+        <!-- <div class="discoverDetails">
             <h2>HIGHLIGHTS & FEATURES</h2>
 
             <div class="details">
@@ -140,7 +145,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </main>
 
     <footer>
