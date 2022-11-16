@@ -1,30 +1,89 @@
 .section {
-    padding: 4.5rem 0 0 0;
+    position: relative;
+    margin: 0;
+    height: 100%;
+    color: black;
+}
+
+.carsList {
+    margin: 1rem auto;
+}
+
+#carModels {
+    margin: -.5rem auto 5.5rem auto;
+    padding: 5rem 0;
+    position: relative;
+    height: 100%;
 }
 
 .carIntro {
-    margin: 5rem auto 10rem auto;
+    margin: 3rem 2.5rem;
+    align-items: center;
 }
 
-.carIntro h2 {
-    font-size: 2.5rem;
-    font-weight: 600;
+.carIntroTitle h2 {
+    font-size: 4rem;
+    font-weight: 300;
+    text-align: center;
+    line-height: 4rem;
+    padding: 1rem 0 0 0;
+}
+
+.carIntroTitle h3 {
+    padding-bottom: 3rem;
 }
 
 .carIntro h3 {
-    font-size: 1.2rem;
-    margin: .9rem auto;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: .9rem;
 }
 
-.promoImg img {
+.bgrdText {
+    display: none;
+    margin: 10rem auto;
+    font-weight: 900;
+    font-size: 15rem;
+    color: #00000020;
+    // position: relative;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.carInside img {
+    width: 600px;
+    height: 616px;
+    object-fit: cover;
+    margin: 0 auto 3rem auto;
+    border-radius: 3px;
+}
+
+.promoImg {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.promoCar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.promoCar img {
+    display: none;
     width: 400px;
     height: 400px;
     object-fit: cover;
-    border-radius: 1rem;
-    margin: 3rem .4rem;
 }
 
 .heroBanner1 {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
     object-position: 85% 0;
 }
 
@@ -33,59 +92,70 @@
 }
 
 .heroBanner3 {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
     object-position: 25% 0;
 }
 
-.discoverDetails {
-    margin: 10rem auto 0 auto;
+.descBoxes {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 8rem auto 5rem auto;
 }
 
-.discoverDetails h2 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin: .9rem auto;
-}
-
-.details {
+.descBox1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 1240px;
-    margin: 0 auto;
+    align-items: flex-end;
+    margin: 0 auto auto 1rem;
 }
 
-.featureCard {
-    width: 300px;
-    border-radius: 1rem;
-    margin: 3rem .4rem;
+.promo_cardText {
+    display: none;
+    
+    max-width: 300px;
+    width: auto;
+    text-align: left;
+    font-weight: 300;
+    margin: 0 auto 0 2rem;
+}
+
+.horzLineW {
+    // display: none;
+    width: 70px;
+    height: 2.5px;
     background-color: white;
-    filter: drop-shadow(4px 4px 10px #00000008);
+    margin: 1rem 0;
+    border-radius: 50rem;
 }
 
-.featureCard img {
-    border-radius: 1rem 1rem 0 0;
+.promo_cardText h3 {
+    text-align: left;
+    font-size: 18px;
 }
 
-.f_cardText {
-    margin: 1.8rem auto;
-    width: 250px;
-}
-
-.f_cardText h3 {
-    font-weight: 600;
+.promo_cardText p {
     font-size: 1rem;
-    color: black;
+    line-height: 1.4rem;
 }
 
-.f_cardText p {
-    font-size: .9rem;
-    line-height: 1.1rem;
+.descBox2 {
+    margin-top: -5rem;
 }
 
-.dot {
-    border-radius: 10px;
-    width: 20px;
-    height: 2px;
-    background-color: black;
-    margin: .8rem auto .5rem auto;
+.descBox2-t {
+    text-align: right;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.descBox2-t h3,
+.descBox2-t p {
+    display: none;
+}
+
+.descBox2-t .horzLineW {
+    margin-right: 0;
 }

@@ -5,11 +5,24 @@ header {
     width: 100%;
     background-color: white;
     color: black;
-    filter: drop-shadow(4px 4px 8px #00000020);
+    filter: drop-shadow(4px 4px 8px #00000010);
+    font-weight: 400;
     align-items: center;
     text-align: center;
     height: 80px;
-    z-index: 10;
+    z-index: 100;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    header {
+        -webkit-backdrop-filter: blur(9px);
+        backdrop-filter: blur(9px);
+        background-color: rgba(255, 255, 255, 0.778);
+    }
+
+    nav {
+        display: none;
+    }
 }
 
 nav {
@@ -20,22 +33,31 @@ nav {
 }
 
 .mainNav {
-    font-weight: 600;
-    font-size: 1rem;
+    font-weight: 400;
+    font-size: 14px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.mainNav ul {
-    padding: 0 .75rem;
+.mainNav li {
+    padding: 0 1.4rem;
     margin: 2.1rem auto 1.3rem auto;
-    transition: all .1s ease-in;
+    display: inline-block;
+    list-style-type: none!important;
+}
+
+.mainNav li a {
+    text-decoration: none!important;
+    display: block;
+    color: #222222;
+    transition: all .4s ease;
+    text-align: center;
     cursor: pointer;
 }
 
-.mainNav ul:hover, .socialMedia i:hover {
-    color: #d4ad00;
+.mainNav li a:hover, .socialMedia i:hover {
+    // color: #1e6f00;
 }
 
 .miniLogo img {
@@ -47,30 +69,161 @@ nav {
 .socialMedia {
     padding: 0 .1rem;
     margin: 1.7rem 0;
-    font-size: 1.7rem;
     align-items: center;
     text-align: center;
 }
 
-.socialMedia i {
+.cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 14px;
     cursor: pointer;
     transition: all .1s ease-in;
+    align-items: center;
+}
+
+.cart i {
+    font-size: 1.3rem;
+    padding: 0 5px;
+    cursor: pointer;
+    transition: all .1s ease-in;
+}
+
+.socialMedia ul a {
+    text-decoration: none!important;
+    color: black;
 }
 
 .announcment {
     display: flex;
     flex-direction: row;
     justify-content: center!important;
-    height: 3rem;
-    background-color: #d4ad00;
+    height: 2.6rem;
     margin-top: 80px;
     color: white;
+    font-weight: 500;
+    background-color: #000000eb;
+    align-items: center;
 }
 
 .announcment h2 {
     font-size: 14px;
-    font-weight: 600;
     align-items: center;
-    padding: 1rem 1.5rem 0 1.5rem;
+    padding: auto 0;
+    margin: auto 1.3rem;
     text-align: center;
+}
+
+.appHomeBanner {
+    height: 100%;
+}
+
+.carTitles {
+    margin: 0px 7.5rem 3rem 7.5rem;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: relative;
+    align-items: flex-end;
+}
+
+.titleMini {
+    margin-bottom: -1.4rem;
+}
+
+.carTitles-left h3 {
+    font-weight: 300;
+    font-size: 180px;
+}
+
+.carTitles-left p {
+    padding: 0 1rem;
+    // letter-spacing: .1rem;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.horzLine {
+    position: absolute;
+    width: 31%;
+    height: 2px;
+    background-color: black;
+    bottom: 38%;
+    left: 35%;
+    right: 35%;
+}
+
+.carTitles-right {
+    width: 300px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.carTitles-right .h3 {
+    font-weight: 500;
+    margin-bottom: .7rem;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.horzline-D {
+    width: 5%;
+    height: 2.5px;
+    background-color: black;
+    margin: 0 .6rem 0 0;
+}
+
+.carTitles-right p {
+    color: #22222270;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.1rem;
+}
+
+.sepLine {
+    height: 1.5px;
+    width: auto;
+    margin: 0 7.5rem;
+    background-color: black;
+}
+
+.bannerCar {
+    margin-right: 35%;
+}
+
+.bannerCar img {
+    max-width: 800px;
+    width: auto;
+    margin: 0rem auto 2rem auto;
+    z-index: -100;
+}
+
+.explore {
+    text-align: left;
+    font-weight: 300;
+    font-size: 1rem;
+    margin: 120px 7.5rem -4% 7.5rem;
+    line-height: 1.4rem;
+    z-index: 50px;
+}
+
+.explore p {
+    margin-bottom: 1rem;
+}
+
+.explore a {
+    text-decoration: none!important;
+    color: black;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.explore a:hover {
+    border-bottom: 1.5px solid black;
 }

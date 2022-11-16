@@ -7,7 +7,7 @@
         "price": "$35,156",
         "monthly": "$544",
         "seatCount": "5",
-        "seatColour": "Amarone Brown/Black w/Full Merino Leather Upholstery, Black w/Full Merino Leather Upholstery, Black w/Perforated Nappa Leather Upholstery, Cognac w/Nappa Leather w/Quilting Upholstery, Cognac w/Perforated Nappa Leather Upholstery",
+        "seatColour": "Beige, Brown, Black, Black, Cognac",
         "thumbnail": "miniWhite.png"
     },
 
@@ -19,31 +19,31 @@
         "price": "$40,756",
         "monthly": "$644",
         "seatCount": "5",
-        "seatColour": "Amarone Brown/Black w/Full Merino Leather Upholstery, Black w/Full Merino Leather Upholstery, Black w/Perforated Nappa Leather Upholstery, Cognac w/Nappa Leather w/Quilting Upholstery, Cognac w/Perforated Nappa Leather Upholstery",
+        "seatColour": "Amarone Brown/Black, Black, Cognac",
         "thumbnail": "miniRed.png"
     },
 
     "Blue Mini": {
         "name": "2023 MINI SPECIAL COOPER 5 DOOR",
-        "date": "2023 Jan",
+        "date": "2023 Mar",
         "colour": "Blue",
         "fuelType": "Gasolin",
         "price": "$55,138",
         "monthly": "$744",
         "seatCount": "5",
-        "seatColour": "Amarone Brown/Black w/Full Merino Leather Upholstery, Black w/Full Merino Leather Upholstery, Black w/Perforated Nappa Leather Upholstery, Cognac w/Nappa Leather w/Quilting Upholstery, Cognac w/Perforated Nappa Leather Upholstery",
+        "seatColour": "Beige, Black, Brown, Burgundy, Navy",
         "thumbnail": "miniBlue.png"
     },
 
     "Green Mini": {
         "name": "2023 MINI COUNTRYMAN 5 DOOR",
-        "date": "2023 Jan",
+        "date": "2023 Apr",
         "colour": "Green",
         "fuelType": "Gasolin",
         "price": "$39,582",
         "monthly": "$590",
         "seatCount": "5",
-        "seatColour": "Amarone Brown/Black w/Full Merino Leather Upholstery, Black w/Full Merino Leather Upholstery, Black w/Perforated Nappa Leather Upholstery, Cognac w/Nappa Leather w/Quilting Upholstery, Cognac w/Perforated Nappa Leather Upholstery",
+        "seatColour": "Burgundy, Black, Beige",
         "thumbnail": "miniGreen.png"
     },
 
@@ -55,7 +55,7 @@
         "price": "$77,129",
         "monthly": "$822",
         "seatCount": "5",
-        "seatColour": "Amarone Brown/Black w/Full Merino Leather Upholstery, Black w/Full Merino Leather Upholstery, Black w/Perforated Nappa Leather Upholstery, Cognac w/Nappa Leather w/Quilting Upholstery, Cognac w/Perforated Nappa Leather Upholstery",
+        "seatColour": "Amarone Brown/Black/Beige, Black, Cognac",
         "thumbnail": "miniBlack.png"
     }
 }

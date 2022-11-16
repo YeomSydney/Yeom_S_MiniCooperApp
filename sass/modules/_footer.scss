@@ -1,8 +1,7 @@
 footer {
     text-align: center;
 
-    position: sticky;
-    top: 100%;
+    // position: relative;
 
     height: 70px;
     background-color: black;
@@ -10,6 +9,13 @@ footer {
     font-weight: 300;
 }
 
-footer h3 {
-    padding-top: 1.7rem;
+.copyright {
+    // position: absolute;
+    // bottom: 0;
+}
+
+.copyright h3 {
+    padding: 1.7rem;
+    margin: 0 auto;
+    text-align: center;
 }

@@ -1,60 +1,84 @@
-.commercialVid {
-    width: 100%;
-    filter: brightness(70%);
-    position: relative;
-}
-
-.vidTitle {
-    position: absolute;
-    top: 50%;
-    left: 5%;
-    color: white;
-}
-
-.vidTitle h2, .vidTitle h3 {
-    margin: 1rem auto;
-    font-size: 3rem;
-}
-
-.btn button, .buildPrice {
-    border-radius: 2rem;
-    border: 1.5px solid #000000;
-    font-size: .9rem;
-    font-weight: 500;
-    padding: 1rem 1.2rem;
-    transition: all .1s ease-in;
-    cursor: pointer;
-    margin: 0 .3rem;
-}
-
-.btn1 {
-    background-color: white;
-}
-
-.btn1:hover {
-    background-color: black;
-    color: white;
-}
-
-.btn2 {
-    background-color: black;
-    color: white;
-}
-
-.btn2:hover {
-    background-color: white;
-    color: black;
-}
-
-.buildPrice {
-    margin-top: 2rem;
-    background-color: transparent;
-    border: 1.5px solid white;
-    color: white;
-    cursor: pointer;
-}
-
-.buildPrice:hover {
-    background-color: white;
-    color: black;
+@media screen and (max-width: 1920px) {
+    .commercialVid {
+        width: 100%;
+        filter: brightness(65%);
+    }
+    
+    .carIntroVid {
+        position: relative;
+    }
+    
+    .vidTitle {
+        position: absolute;
+        top: 38%;
+        bottom: 38%;
+        left: 10%;
+        right: 10%;
+        color: white;
+    }
+    
+    .vidTitle h2, .vidTitle h3 {
+        margin: .5rem auto;
+        font-size: 3rem;
+        font-weight: 300;
+    }
+    
+    .vidTitle h4 {
+        margin: 1rem auto .5rem auto;
+    }
+    
+    .btn button, .buildPrice {
+        border-radius: 2rem;
+        border: 1.5px solid black;
+        font-size: .9rem;
+        font-weight: 300;
+        padding: 1rem 1.2rem;
+        transition: all .1s ease-in;
+        cursor: pointer;
+        margin: 0 .3rem;
+    }
+    
+    .btn1 {
+        background-color: white;
+    }
+    
+    .btn1:hover {
+        background-color: black;
+        color: white;
+    }
+    
+    .btn2 {
+        background-color: black;
+        color: white;
+    }
+    
+    .btn2:hover {
+        background-color: white;
+        color: black;
+    }
+    
+    .buildPrice {
+        margin-top: 2rem;
+        background-color: transparent;
+        border: 1.5px solid white;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .buildPrice:hover {
+        background-color: white;
+        color: black;
+    }
+    
+    .vert-line-w {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        border-radius: 50rem;
+        width: 1px;
+        height: 8rem;
+        background-color: white;
+        margin: 0 auto;
+    }
 }

@@ -1,0 +1,53 @@
+.discoverDetails {
+    margin: 0 auto 5rem auto;
+}
+
+.discoverDetails h2 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin: .9rem auto;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.featureCard {
+    width: 300px;
+    border-radius: 1rem;
+    margin: 3rem .4rem;
+    background-color: white;
+    filter: drop-shadow(4px 4px 10px #00000010);
+}
+
+.featureCard img {
+    border-radius: 1rem 1rem 0 0;
+}
+
+.f_cardText {
+    margin: 1.8rem auto;
+    width: 250px;
+}
+
+.f_cardText h3 {
+    font-weight: 600;
+    font-size: 1rem;
+    color: black;
+}
+
+.f_cardText p {
+    font-size: .9rem;
+    line-height: 1.2rem;
+}
+
+.dot {
+    width: 2rem;
+    height: .17rem;
+    border-radius: 50rem;
+    background-color: #000000;
+    margin: .7rem auto .5rem auto;
+}

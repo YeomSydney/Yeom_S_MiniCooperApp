@@ -1,22 +1,66 @@
-.miniCars {
-    width: 300px;
-    height: auto;
+.showMinis {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(-155deg, #303030, #000000);
+    margin: 0;
+    // padding: 5rem 0;
 }
 
-.cars {
-    // background-image: URL("https://86bd04aee645f41c2005-510904abdc95bfe9a6b152d3edc0036b.ssl.cf5.rackcdn.com/Public/img/2016-739165/content/electric/stay-know-bg.jpg?v=NwY8tz2G0hI8N6iLlo2v8m4NZBYEb6Dj3jJYlFRgPBM1");
-    // background-repeat: no-repeat;
-    background-color: #00000050;
+.carMiniList {
+    padding: 4rem .5rem 0 .5rem;
+    font-weight: 300;
+}
+
+.btn {
+    margin-bottom: 7rem;
+}
+
+.cars_h {
+    margin: 3rem auto auto auto;
+}
+
+.cars_h h3 {
+    font-size: 3rem;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+
+.showContent {
+    padding: 7rem 0;
 }
 
 .carSelection {
     display: inline-block;
-    margin: 3rem 3rem;
-    background-color: #000000;
-    color: white;
+    margin: 0 1rem;
+}
+
+.carsList-inside {
+    width: 400px;
+    height: 380px;
+    // border-radius: 1rem;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.carsList-box {
+    margin: 1.5rem 5px;
+}
+
+.miniCars {
+    width: 14rem;
+    height: auto;
+}
+
+.showMiniCars .bgrdText p {
+    font-weight: 900;
+    font-size: 15rem;
+    color: #00000050;
+    padding-top: 7rem;
 }
 
 .eachCar {
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,17 +73,15 @@
     padding: .5rem .8rem;
     border-style: none;
     border-radius: 50rem;
-    background-color: #d4ad00;
     color: white;
-    font-size: .8rem;
-    letter-spacing: .5px;
-    margin-bottom: .5rem;
+    font-size: .9rem;
 }
 
 .eachCar h3 {
     font-size: 1.3rem;
-    font-weight: bold;
+    // font-weight: 600;
     padding-bottom: .5rem;
+    line-height: 1.5rem;
 }
 
 .eachCar h4 {
@@ -48,7 +90,7 @@
 
 .eachCar h5 {
     color: #0389dc;
-    font-weight: 600;
+    // font-weight: 600;
     margin-top: .5rem;
     margin-bottom: .5rem;
     border-radius: 50rem;
@@ -63,6 +105,28 @@
     display: none;
 }
 
+.btn-info {
+    align-items: center;
+}
+
+.btn-info button {
+    background-color: white;
+    border-radius: 50rem;
+    border: 1.5px solid white;
+    font-size: .9rem;
+    font-weight: 500;
+    padding: 1rem 1.2rem;
+    transition: all .1s ease-in;
+    cursor: pointer;
+    margin: 1rem auto;
+}
+
+.btn-info button:hover {
+    border: 1.5px solid white;
+    color: white;
+    background-color: transparent;
+}
+
 .animate {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -74,6 +138,7 @@
     -webkit-animation-delay: .1s;
     -moz-animation-delay: .1s;
     animation-delay: .1s;
+
     z-index: -100;
 }
 
@@ -108,4 +173,175 @@
         -webkit-transform: none;
         transform: none;
     }
+}
+
+.carsList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    z-index: 10;
+    align-items: flex-start;
+}
+
+.getMiniInfo {
+    z-index: 10;
+    margin: auto 0 auto 2rem;
+    // border-radius: 1rem;
+    border-radius: 5px;
+    height: auto;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .getMiniInfo,
+    .carsList-inside {
+        -webkit-backdrop-filter: blur(3px);
+        backdrop-filter: blur(3px);
+        background-color: #2e2e2ead;
+    }
+}
+
+.eachCarInfo {
+    color: white;
+    height: auto;
+    padding: 3rem;
+    max-width: 832px;
+    width: 100%;
+    border-image-width: auto;
+}
+
+.eachCarInfo .avail {
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+
+.eachCarInfo .name {
+    font-size: 2.5rem;
+    margin: .3rem auto 1rem auto;
+}
+
+.eachCarInfo .date {
+    font-size: .8rem;
+}
+
+.specs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.miniColours,
+.miniPrice {
+    display: flex;
+    flex-direction: row;
+    // margin: 0rem 1rem;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.miniPrice {
+    padding-top: 2rem;
+}
+
+.miniExtra {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.miniColours p,
+.miniPrice p,
+.miniExtra p {
+    padding: 0 1rem;
+}
+
+.miniColours h3,
+.miniPrice h3,
+.miniFuel h4,
+.miniSeat h4 {
+    font-size: 16px;
+    background-color: #5291b5;
+    margin: auto .5rem;
+    padding: 1rem 0;
+    border-radius: 5px;
+}
+
+.miniFuel p,
+.miniSeat p {
+    background-color: white;
+    color: black;
+    padding: 2rem 3rem;
+    border-radius: 5px;
+    margin: 1rem .5rem;
+    width: 340px;
+}
+
+.priceBox {
+    background-color: white;
+    color: black;
+    padding: 1rem 3rem 2rem 3rem;
+    border-radius: 5px;
+    margin: 1rem .5rem;
+    width: 340px;
+}
+
+.colourBox {
+    background-color: white;
+    color: black;
+    padding: 3rem auto;
+    border-radius: 5px;
+    margin: 1rem .5rem;
+    width: 340px;
+}
+
+.colourDetails {
+    margin: 2rem auto;
+}
+
+.colourDetails h4 {
+    padding-bottom: .6rem;
+}
+
+.carColour,
+.seatColour {
+    font-weight: bold!important;
+}
+
+.priceBox span,
+.colourBox h4,
+.colourBox p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.priceBox p,
+.miniExtra p {
+    font-size: 2rem;
+    font-weight: 700;
+    // height: 10rem;
+    // margin: 0 auto;
+    line-height: 1.7rem;
+}
+
+.custom {
+    border: 1.5px solid white;
+    border-radius: 5rem;
+    padding: .3rem .7rem;
+}
+
+.miniPrice,
+.miniColours {
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.priceContainer,
+.colourContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
