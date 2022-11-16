@@ -8,7 +8,11 @@ Seunghyeon Yeom (0975764)
 Time to put it all together! Use everything we’ve covered so far - SASS, Vue, AJAX, and the Fetch API to create a dynamic one-page app based on our class build. Click on one of the Mini models to show more content / data about that model. You will be navigating around in your app using Vue lifecycle hooks, components, and AJAX where appropriate.
 
 ## Car Models
-
+- 2023 MINI COOPER 5 DOOR
+- 2023 MINI COOPER S 5 DOOR
+- 2023 MINI SPECIAL COOPER 5 DOOR
+- 2023 MINI COUNTRYMAN 5 DOOR
+- 2023 MINI SPECIAL COUNTRYMAN 5 DOOR
 
 ## MIT License
 Copyright 2022 Seunghyeon Yeom
