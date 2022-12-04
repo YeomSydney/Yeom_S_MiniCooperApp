@@ -9,7 +9,8 @@ import eachCarInfo from './components/eachCarInfo.js';
         created() {
             console.log('vue instance is created');
 
-            fetch('./data.json')
+            fetch('./scripts/json.php')
+            // fetch('./data.json')
                 .then(res => res.json())
                 .then(data => this.miniAppData = data)
             .catch(error => console.error(error));
