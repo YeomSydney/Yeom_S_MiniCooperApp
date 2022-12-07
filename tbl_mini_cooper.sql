@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Dec 04, 2022 at 07:19 AM
+-- Generation Time: Dec 07, 2022 at 07:16 AM
 -- Server version: 5.7.34
 -- PHP Version: 7.4.21
 
@@ -24,10 +24,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tbl_miniapp`
+-- Table structure for table `tbl_mini_cooper`
 --
 
-CREATE TABLE `tbl_miniapp` (
+CREATE TABLE `tbl_mini_cooper` (
   `mini_id` int(10) UNSIGNED NOT NULL,
   `name` varchar(300) NOT NULL DEFAULT '2023 MINI',
   `id` varchar(300) NOT NULL,
@@ -42,24 +42,24 @@ CREATE TABLE `tbl_miniapp` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `tbl_miniapp`
+-- Dumping data for table `tbl_mini_cooper`
 --
 
-INSERT INTO `tbl_miniapp` (`mini_id`, `name`, `id`, `date`, `colour`, `fuelType`, `price`, `monthly`, `seatCount`, `seatColour`, `thumbnail`) VALUES
-(1, '2023 MINI COOPER 5 DOOR', 'White Mini', '2023 Jan', 'White', 'Gasolin', '$35,156', '$544', 5, 'Beige, Brown, Black, Black, Cognac', 'miniWhite.png'),
-(2, '2023 MINI COOPER S 5 DOOR', 'Red Mini', '2023 Jan', 'Red', 'Gasolin', '$40,756', '$644', 5, 'Amarone Brown/Black, Black, Cognac', 'miniRed.png'),
-(3, '2023 MINI SPECIAL COOPER 5 DOOR', 'Blue Mini', '2023 Mar', 'Blue', 'Gasolin', '$55,138', '$744', 5, 'Beige, Black, Brown, Burgundy, Navy', 'miniBlue.png'),
-(4, '2023 MINI COUNTRYMAN 5 DOOR', 'Green Mini', '2023 Apr', 'Green', 'Gasolin', '$39,582', '$590', 5, 'Burgundy, Black, Beige', 'miniGreen.png'),
-(5, '2023 MINI SPECIAL COUNTRYMAN 5 DOOR', 'Black Mini', '2023 Jan', 'Black', 'Gasolin', '$77,129', '$822', 5, 'Amarone Brown/Black/Beige, Black, Cognac', 'miniBlack.png');
+INSERT INTO `tbl_mini_cooper` (`mini_id`, `name`, `id`, `date`, `colour`, `fuelType`, `price`, `monthly`, `seatCount`, `seatColour`, `thumbnail`) VALUES
+(1, '2023 MINI COOPER 5 DOOR', 'White Mini', '2023 Jan', 'White', 'Gasolin', '$35,156', '$544', 5, 'Amarone Brown/Black w/Full Merino Leather Upholstery', 'miniWhite.png'),
+(2, '2023 MINI COOPER S 5 DOOR', 'Red Mini', '2023 Jan', 'Red', 'Gasolin', '$40,756', '$644', 5, 'Black w/Full Merino Leather Upholstery', 'miniRed.png'),
+(3, '2023 MINI SPECIAL COOPER 5 DOOR', 'Blue Mini', '2023 Mar', 'Blue', 'Gasolin', '$55,138', '$744', 5, 'Black w/Perforated Nappa Leather Upholstery', 'miniBlue.png'),
+(4, '2023 MINI COUNTRYMAN 5 DOOR', 'Green Mini', '2023 Apr', 'Green', 'Gasolin', '$39,582', '$590', 5, 'Cognac w/Nappa Leather w/Quilting Upholstery', 'miniGreen.png'),
+(5, '2023 MINI SPECIAL COUNTRYMAN 5 DOOR', 'Black Mini', '2023 Jan', 'Black', 'Gasolin', '$77,129', '$822', 5, 'Cognac w/Nappa Leather w/Quilting Upholstery', 'miniBlack.png');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `tbl_miniapp`
+-- Indexes for table `tbl_mini_cooper`
 --
-ALTER TABLE `tbl_miniapp`
+ALTER TABLE `tbl_mini_cooper`
   ADD PRIMARY KEY (`mini_id`);
 
 --
@@ -67,9 +67,9 @@ ALTER TABLE `tbl_miniapp`
 --
 
 --
--- AUTO_INCREMENT for table `tbl_miniapp`
+-- AUTO_INCREMENT for table `tbl_mini_cooper`
 --
-ALTER TABLE `tbl_miniapp`
+ALTER TABLE `tbl_mini_cooper`
   MODIFY `mini_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 

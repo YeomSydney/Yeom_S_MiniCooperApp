@@ -10,7 +10,7 @@
     $label = "id";
 
     //Return all results
-    $getContent = getAll('tbl_miniapp');
+    $getContent = getAll('tbl_mini_cooper');
 
     //Return Single Result
     // $getContent = getSingle('tbl_marvel', 'marvel_id', '2');
