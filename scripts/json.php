@@ -12,6 +12,9 @@
     //Return all results
     $getContent = getAll('tbl_mini_cooper');
 
+    // $getContent = "SELECT * FROM `tbl_mini_cooper`;";
+    // $sql = "SELECT * \n"."FROM tbl_mini_types, tbl_mini_wheel_colour;";
+
     //Return Single Result
     // $getContent = getSingle('tbl_marvel', 'marvel_id', '2');
 
