@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+
     <link rel="icon" type="image/x-icon" href="/images/logoFavicon.png">
 
     <title>Mini Cooper App</title>
@@ -19,8 +20,8 @@
 
             <ul class="mainNav">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Cars</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#car">Cars</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Contact</a></li>
                 
@@ -73,6 +74,9 @@
                     <p>MINI is a British automotive marque founded in 1969, owned by German automotive company BMW since 2000.</p>
                 </div>
             </div>
+
+            <!-- Moving to the car section -->
+            <div id="car"></div>
         </div>
         
         <!-- <div class="sepLine"></div> -->
@@ -141,6 +145,9 @@
                     <!-- For only page animation -->
                 </div>
     
+                <!-- Moving to the about section -->
+                <div id="about"></div>
+
                 <!-- Showing the content -->
                 <div class="showMinis">
                     <ul v-show="showCars" class="cars animate fadeIn showContent">
